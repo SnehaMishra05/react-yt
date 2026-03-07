@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'helvetica neue';
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+button {
+  margin: 10px;
+  padding: 2px;
+}
+
+input {
+  margin: 10px;
+  padding: 5px;
+}
+
+.box {
+  width: 190px;
+  height: 130px;
+  background-color: red;
+  margin: 10px 30px;
+}
