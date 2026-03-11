@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'helvetica neue';
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.nav2 {
+  display: flex;
+  gap: 30px;
+}
+
+.light {
+  background-color: lightseagreen;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 20px;
+}
+
+.dark {
+  background-color: darkslategrey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 20px;
+}
+
+button{
+  margin: 10px;
+  padding: 10px;
+}
